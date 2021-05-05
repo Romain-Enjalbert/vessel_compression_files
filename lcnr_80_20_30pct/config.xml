@@ -1,0 +1,501 @@
+<?xml version="1.0" ?>
+<hemelbsettings version="3">
+  <simulation>
+    <step_length units="s" value="7.407407407407407e-08" />
+    <steps units="lattice" value="2000000" />
+    <stresstype value="1" />
+    <voxel_size units="m" value="6.66667e-07" />
+    <origin units="m" value="(-3.00983147114e-05,-8.23333516118e-05,-3.6000018e-05)" />
+  </simulation>
+  <geometry>
+    <datafile path="config.gmy" />
+  </geometry>
+  <inlets>
+    <inlet>
+      <condition subtype="cosine" type="pressure">
+        <mean units="mmHg" value="0.0" />
+        <amplitude units="mmHg" value="0.0" />
+        <phase units="rad" value="0.0" />
+        <period units="s" value="1" />
+      </condition>
+      <normal units="dimensionless" value="(1.0,0.0,0.0)" />
+      <position units="m" value="(-3e-05,0.0,0.0)" />
+      <flowextension>
+        <length units="m" value="20e-6" />
+        <radius units="m" value="36e-6" />
+        <fadelength units="m" value="10e-6" />
+      </flowextension>
+  <insertcell template="default">
+    <offset units="s" value="0.0044444444444444444"/>
+    <every units="s" value="0.000556690909090909"/>
+    <x units="m" value="0.0"/>
+    <y units="m" value="0.0"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0044444444444444444"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="8.133333333333332e-06"/>
+    <y units="m" value="0.0"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0045478241146512085"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="4.066666666666667e-06"/>
+    <y units="m" value="7.043673284113433e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004651203784857973"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="-4.0666666666666644e-06"/>
+    <y units="m" value="7.043673284113434e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004754583455064737"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="-8.133333333333332e-06"/>
+    <y units="m" value="9.960460633065138e-22"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004857963125271502"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="-4.0666666666666695e-06"/>
+    <y units="m" value="-7.043673284113431e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004961342795478266"/>
+    <every units="s" value="0.0006202780212405863"/>
+    <x units="m" value="4.066666666666661e-06"/>
+    <y units="m" value="-7.043673284113436e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0044444444444444444"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="1.6266666666666665e-05"/>
+    <y units="m" value="0.0"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004511521025988051"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="1.4087346568226868e-05"/>
+    <y units="m" value="8.13333333333333e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004578597607531658"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="8.133333333333334e-06"/>
+    <y units="m" value="1.4087346568226866e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004645674189075266"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="9.960460633065138e-22"/>
+    <y units="m" value="1.6266666666666665e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0047127507706188725"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-8.133333333333329e-06"/>
+    <y units="m" value="1.4087346568226868e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004779827352162479"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-1.4087346568226864e-05"/>
+    <y units="m" value="8.133333333333337e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004846903933706086"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-1.6266666666666665e-05"/>
+    <y units="m" value="1.9920921266130276e-21"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004913980515249694"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-1.408734656822687e-05"/>
+    <y units="m" value="-8.133333333333327e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0049810570967933005"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-8.133333333333339e-06"/>
+    <y units="m" value="-1.4087346568226863e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005048133678336907"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="-2.988138189919541e-21"/>
+    <y units="m" value="-1.6266666666666665e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005115210259880514"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="8.133333333333322e-06"/>
+    <y units="m" value="-1.4087346568226873e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005182286841424122"/>
+    <every units="s" value="0.000804918978523284"/>
+    <x units="m" value="1.4087346568226863e-05"/>
+    <y units="m" value="-8.133333333333339e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0044444444444444444"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="2.4399999999999997e-05"/>
+    <y units="m" value="0.0"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004525326491459215"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="2.292849994717616e-05"/>
+    <y units="m" value="8.345291497146317e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004606208538473985"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="1.8691484412103062e-05"/>
+    <y units="m" value="1.5684017676351557e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004687090585488755"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="1.2200000000000002e-05"/>
+    <y units="m" value="2.11310198523403e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004767972632503525"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="4.237015535073102e-06"/>
+    <y units="m" value="2.4029309173497876e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0048488546795182955"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-4.237015535073099e-06"/>
+    <y units="m" value="2.4029309173497876e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.004929736726533065"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-1.2199999999999993e-05"/>
+    <y units="m" value="2.11310198523403e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005010618773547835"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-1.869148441210306e-05"/>
+    <y units="m" value="1.568401767635156e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005091500820562605"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-2.2928499947176158e-05"/>
+    <y units="m" value="8.34529149714632e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005172382867577375"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-2.4399999999999997e-05"/>
+    <y units="m" value="2.9881381899195415e-21"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005253264914592146"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-2.292849994717616e-05"/>
+    <y units="m" value="-8.345291497146315e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005334146961606915"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-1.8691484412103062e-05"/>
+    <y units="m" value="-1.5684017676351557e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005415029008621686"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-1.2200000000000009e-05"/>
+    <y units="m" value="-2.1131019852340293e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.0054959110556364555"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="-4.2370155350731e-06"/>
+    <y units="m" value="-2.4029309173497876e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005576793102651226"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="4.237015535073091e-06"/>
+    <y units="m" value="-2.402930917349788e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005657675149665997"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="1.2200000000000002e-05"/>
+    <y units="m" value="-2.11310198523403e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005738557196680766"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="1.869148441210306e-05"/>
+    <y units="m" value="-1.5684017676351564e-05"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+  <insertcell template="default">
+    <offset units="s" value="0.005819439243695535"/>
+    <every units="s" value="0.0014558768462658617"/>
+    <x units="m" value="2.2928499947176155e-05"/>
+    <y units="m" value="-8.345291497146334e-06"/>
+    <theta units="rad" value="0"/>
+    <phi units="rad" value="0"/>
+    <delta_theta units="rad" value="0"/>
+    <delta_phi units="rad" value="0"/>
+  </insertcell>
+    </inlet>
+  </inlets>
+  <outlets>
+    <outlet>
+      <condition subtype="parabolic" type="velocity">
+	<radius units="m" value = "16.5e-6" />
+        <maximum units="m/s" value="-0.024" />
+      </condition>
+      <normal units="dimensionless" value="(-0.707,-0.707,0.0)" />
+      <position units="m" value="(0.000552138095117,7.03380951166e-05,0.0)" />
+      <flowextension>
+        <length units="m" value="30e-6" />
+        <radius units="m" value="16.5e-6" />
+        <fadelength units="m" value="15e-6" />
+      </flowextension>
+    </outlet>
+    <outlet>
+      <condition subtype="parabolic" type="velocity">
+        <radius units="m" value="16.5e-6" />
+        <maximum units="m/s" value="-0.006" />
+      </condition>
+      <normal units="dimensionless" value="(-0.707,0.707,0.0)" />
+      <position units="m" value="(0.000552138,-7.03381e-05,0.0)" />
+      <flowextension>
+        <length units="m" value="30e-6" />
+        <radius units="m" value="16.5e-6" />
+        <fadelength units="m" value="15e-6" />
+      </flowextension>
+    </outlet>
+  </outlets>
+  <visualisation>
+    <centre units="m" value="(0.0,0.0,0.0)" />
+    <orientation>
+      <longitude units="deg" value="45.0" />
+      <latitude units="deg" value="45.0" />
+    </orientation>
+    <display brightness="0.03" zoom="1.0" />
+    <range>
+      <maxvelocity units="m/s" value="0.1" />
+      <maxstress units="Pa" value="0.1" />
+    </range>
+  </visualisation>
+  <initialconditions>
+    <pressure>
+      <uniform units="mmHg" value="0.0" />
+    </pressure>
+  </initialconditions>
+<redbloodcells>
+    <controller>
+      <boxsize units="LB" value="3" />
+    </controller>
+    <cell2Cell>
+      <intensity units="Nm" value="5.87695133e-18" />
+      <cutoffdistance units="LB" value="1.0" />
+      <exponent value="2"/>
+    </cell2Cell>
+    <cell2Wall>
+      <intensity units="Nm" value="5.87695133e-17" />
+      <cutoffdistance units="LB" value="1.0" /> 
+      <exponent value="2"/>
+    </cell2Wall>
+    <cells>
+      <cell name="default">
+        <moduli>
+          <bending units="Nm" value="5.87695133e-18" />
+          <surface units="LB" value="1.0" /> 
+          <volume units="LB" value="1.0" />
+          <dilation units="LB" value="0.5" />
+          <strain units="N/m" value="0.00014692" /> 
+        </moduli>
+        <shape mesh_path="rbc_ico_720.vtp" />
+        <scale units="m" value="4e-06" />
+      </cell>
+    </cells>
+    <output>
+      <period units="LB" value="4000" /> 
+    </output>
+  </redbloodcells>
+  <monitoring>
+    <incompressibility/> <!-- leave this in as that produces the mach number and mrpd to verify incompressibility -->
+   <!-- <steady_flow_convergence terminate="false" tolerance="1e-6">
+      <criterion type="velocity" units="m/s" value="0.015151515" />
+    </steady_flow_convergence> take this out as it takes computational resource, and have already done flow convergeance test -->
+  </monitoring>
+  <properties>
+    <propertyoutput file="surface-tractions.xtr" period="900000">
+      <geometry type="surface" />
+      <field type="traction" />
+      <field type="tangentialprojectiontraction" />
+    </propertyoutput>
+    <propertyoutput file="surface-pressure.xtr" period="900000">
+      <geometry type="surface" />
+      <field type="pressure" />
+    </propertyoutput>
+    <propertyoutput file="wholegeometry-velocity.xtr" period="900000">
+      <geometry type="whole" />
+      <field type="velocity" />
+    </propertyoutput>
+    <propertyoutput file="wholegeometry-shearrate.xtr" period="900000">
+      <geometry type="whole" />
+      <field type="shearrate" />
+    </propertyoutput>
+  </properties>
+</hemelbsettings>
