@@ -4,7 +4,7 @@ Each folder contains the files required to run the simulations in HemeLB, as wel
 .msh/.vtp files
 .vtu files are vtk format file of the geometry
 
-The folders are named as follows : geometry_flowratio_hematocrit. Finally specific cases such as changes in capilary number or geometry asymmetry are also attached at the end of the file name. Abbreviations are as follows :
+The folders are named as follows : geometry_flowratio_hematocrit. Finally specific cases such as changes in capillary number or geometry asymmetry are also attached at the end of the file name. Abbreviations are as follows :
 c = control
 lcnr = long compression no recovery
 scsr = short compression short recovery
